@@ -6,7 +6,8 @@ import Sub from './root/SubNav/sub';
 function App() {
   return (
     <div className="App">
-     <Navbar/><div className='wrap'><Sub/><Body/></div>
+     <Navbar/>
+     <div className='wrap'><Sub/><Body/></div>
         
 
      

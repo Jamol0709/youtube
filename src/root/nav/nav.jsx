@@ -4,7 +4,7 @@ import { Wrap } from './navStyle';
 
 export const  Navbar =()=> {
     const [movies, setMovies] = useContext(MovieContext);
-    const [data, useData] = useState(movies)
+    // const [data, useData] = useState(movies)
     
     const onSort =(genre)=> {
         let res = movies.filter((value)=> value.genre ==='film');
@@ -18,7 +18,7 @@ export const  Navbar =()=> {
       const Search =(e)=> {
         let res = movies.filter((value)=>
              value.title.includes(e.target.value)
-             );
+             ); console.log(movies);
       setMovies(res)
     };
       
