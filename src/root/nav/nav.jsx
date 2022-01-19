@@ -18,7 +18,7 @@ export const  Navbar =()=> {
       const Search =(e)=> {
         let res = movies.filter((value)=>
              value.title.includes(e.target.value)
-             ); console.log(movies);
+             );
       setMovies(res)
     };
       
@@ -39,7 +39,7 @@ export const  Navbar =()=> {
                     YouTube {movies.length}
                 </h2>
             </div>
-        <Wrap.Input onClick={()=>Search(movies.title)} >
+        <Wrap.Input onChange={()=>Search(movies.title)} >
         </Wrap.Input>
         <Wrap.Search ></Wrap.Search>
         

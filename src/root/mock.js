@@ -1,11 +1,11 @@
 
-import film from '../assets/videos/NORTHMAN.mp4'
+import film from '../assets/photos/Images.jpg'
 
 
 export const movie =[{
 id: 1,
 title: 'Titanic',
-base: film,
+src: film,
 genre :'film'
 },
 {

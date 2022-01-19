@@ -21,7 +21,9 @@ export const  Body =()=> {
        
             {movies.map((value) =>(
            <div>
-            <Contener.Mve key={value.id}></Contener.Mve >
+            <Contener.Mve key={value.id}>
+              {/* {value.src} */}
+              </Contener.Mve >
              <Contener.M><>
                {value.id }{ value.title}
              </>
