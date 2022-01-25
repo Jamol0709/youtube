@@ -17,8 +17,6 @@ export const  Body =()=> {
                 Movies {movies.length}
           </Contener.H1>
           <Contener>
-       
-       
             {movies.map((value) =>(
            <div>
             <Contener.Mve key={value.id}>
